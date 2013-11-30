@@ -1,0 +1,170 @@
+body {
+    margin:0;
+    font-family: Helvetica;
+    font-size: 11px;
+    color: #666666;
+}
+
+h1{
+    margin-top: 0px;
+}
+p {
+    margin: 0px;
+}
+
+.datagrid {
+    border: 1px solid #AAAAAA;
+    border-radius: 4px 4px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.datagrid caption {
+    font-size: 1.5em;
+    margin-bottom: 12px;
+}
+
+.datagrid thead {
+    background-image: linear-gradient(white, #EEEEEE);
+}
+
+.datagrid th {
+    text-align: left;
+    height: 32px;
+}
+
+.datagrid th a {
+    color: #666666;
+}
+
+.datagrid button {
+    border: none;
+    background-color: transparent;
+}
+
+
+
+table.datagrid thead th a span.tri {
+    display: inline-block;
+    height: 24px;
+    width: 16px;
+    background-image: url("./images/icone_tri.png");
+    background-repeat: no-repeat;
+    background-position: 100% 40%;
+    vertical-align: middle;
+}
+
+table.datagrid thead th a span.asc {
+    background-image: url("./images/icone_tri_asc.png");
+    height: 12px; 
+    margin-bottom: 6px;
+}
+
+table.datagrid thead th a span.desc {
+    background-image: url("./images/icone_tri_desc.png");
+    height: 12px; 
+    margin-top: 6px;
+}
+
+table.datagrid tbody tr:nth-child(odd) {
+    background-color: #EEEFFE;
+}
+
+table.datagrid tbody tr:hover {
+    background-color: #FFEAEB;
+}
+
+section {
+    padding-top: 20px;
+}
+
+
+#entete{
+    background-image: url("./images/fond_degrade.png");
+    background-repeat: repeat;
+    height: 65px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+#utilisateur{
+    float:right;
+    margin-top: 5px;
+    text-align: center;
+}
+
+#submit{
+    background-color: #000000;
+    color : #ffffff;
+    border: none;
+}
+
+#submit:active{
+    background-color: #666666
+}
+
+#menu_principal{
+    background-color: #087B8B;
+    color : #FFFFFF;
+    
+}
+
+#menu_principa ul{
+    margin: 0px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+#menu_principal ul > li{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 28px;
+    font-size: 1.2em;
+    padding-right: 14px;
+    padding-left: 14px;
+    
+}
+
+#menu_principal ul > li+li{
+    border-left-color: #18BFD6;
+    border-left-width: 1px;
+    border-left-style: solid;
+}
+
+#menu_principal ul > li > a{
+    color: #FFFFFF;
+    text-decoration: none;
+    
+}
+
+#menu_principal ul > li:hover{
+    background-color: #4ED7EB;
+}
+
+#menu_principal ul > li:active{
+    background-color: #FFB618;
+}
+
+#menu_principal ul > li.active > a{
+    color: #FFB618;
+}
+
+#menu_principal ul > li.active:hover{
+    background-color: #087B8B; 
+}
+
+#liste_appel thead th {
+    width: 120px;
+}
+
+#liste_appel thead th + th {
+    width: 80px;
+}
+#liste_appel thead th + th + th {
+    width: 160px;
+}
+
+#liste_appel thead th + th + th {
+    width: 80px;
+}

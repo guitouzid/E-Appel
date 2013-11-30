@@ -1,0 +1,46 @@
+#utilisateurForm {
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#utilisateurForm form {
+    padding:20px;
+    border:1px solid #DDDDDD;
+}
+
+#utilisateurForm dl {
+    float:left;
+}
+
+#utilisateurForm dt {
+    float:left;
+    width:40%;
+    text-align: right;
+    margin-right: 10px;
+}
+
+#utilisateurForm dt label {
+    line-height: 23px;
+    vertical-align: middle;
+}
+
+#utilisateurForm dd {
+    float: left;
+    margin-left:10px;
+    margin-bottom:10px;
+}
+
+#utilisateurForm dd input {
+    width:200px;
+}
+
+#utilisateurForm input[type=submit]{
+    clear:both;
+    margin-left:40%;
+    
+}
+
+#liste_enseignants caption form input {
+    float: left;
+}

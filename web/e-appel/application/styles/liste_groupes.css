@@ -1,0 +1,53 @@
+#liste_groupes {
+    float:left;
+    width:20%;
+}
+
+#liste_groupes ul {
+    font-size: 1.2em;
+}
+
+
+#liste_groupes ul li {
+    list-style: none;
+    margin-bottom:8px;
+    width:100px;
+    padding-left:10px;
+    padding-top:2px;
+    padding-bottom:2px;
+}
+
+#liste_groupes ul li a:link,#liste_groupes ul li a:visited {
+    color:#AAAAAA;    
+}
+
+#liste_groupes ul li a {
+    text-decoration: none;
+}
+
+#liste_groupes ul li.selection {
+    background-color: #FFB618;    
+}
+
+#liste_groupes ul li.selection a:link,#liste_groupes ul li.selection a:visited {
+    color:white;
+}
+
+#detail_groupe {
+    float:left;
+    width:70%;
+    padding-left:20px;
+    border-left:1px solid #DDDDDD;    
+}
+
+#detail_groupe table.datagrid {
+    width:90%;   
+}
+
+#detail_groupe table.datagrid th {
+    width:30px;
+}
+
+#detail_groupe table.datagrid th+th {
+    min-width:200px;
+}

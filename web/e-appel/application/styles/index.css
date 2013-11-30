@@ -1,0 +1,49 @@
+#accueil {
+    margin-left:auto;
+    margin-right:auto;
+    width:450px;
+}
+
+#accueil div {
+    border:1px solid #18BFD6;
+    border-radius: 4px 4px;
+    padding:10px;
+    position:relative;
+}
+
+#accueil div p {
+    text-align: center;
+    height:24px;
+    position:absolute;
+    width:100%;
+    left:0px;
+}
+
+#accueil div label {
+    display:inline-block;
+    width:130px;
+    text-align: right;
+}
+
+#login,#motdepasse {
+    width:180px;
+    margin-left:10px;
+} 
+
+#motdepasse {
+    margin-top:10px;
+}
+
+#accueil input[type=submit] {
+    display:inline-block;     
+    width:90px;
+    margin-left:50px;
+    margin-right:50px;
+    margin-top:10px;
+    position:relative;
+    left:180px;
+}
+
+#accueil div form {
+    margin-top:40px;
+}
